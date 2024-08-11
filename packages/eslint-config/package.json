@@ -1,0 +1,15 @@
+{
+  "name": "@kaleidoscalp/eslint-config",
+  "private": true,
+  "type": "module",
+  "files": [],
+  "main": "./eslint.config.js",
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@types/eslint__js": "^8.42.3",
+    "eslint": "8.57.0",
+    "eslint-config-turbo": "^2.0.0",
+    "typescript": "5.4.5",
+    "typescript-eslint": "^8.0.1"
+  }
+}

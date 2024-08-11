@@ -1,0 +1,15 @@
+{
+  "name": "@kaleidoscalp/repo",
+  "private": true,
+  "packageManager": "pnpm@9.6.0",
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "format": "prettier --write --cache \"**/*.{ts,tsx,md,mdx,astro}\"",
+    "lint": "turbo lint"
+  },
+  "devDependencies": {
+    "prettier": "3.3.3",
+    "turbo": "^2.0.12"
+  }
+}

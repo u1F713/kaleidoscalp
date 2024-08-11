@@ -1,0 +1,12 @@
+{
+  "extends": "@kaleidoscalp/typescript-config/tsconfig.base.json",
+  "compilerOptions": {
+    "jsxImportSource": "@builder.io/qwik",
+    "outDir": "./node_modules/@kaleidoscalp/cache",
+    "types": ["vite/client"],
+    "paths": {
+      "~/*": ["./src/*"]
+    }
+  },
+  "include": ["src", "./*.d.ts", "./*.config.ts"]
+}
