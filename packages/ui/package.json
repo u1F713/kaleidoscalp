@@ -7,7 +7,7 @@
     "./global": "./styles/global.css.ts"
   },
   "scripts": {
-    "lint": "eslint \"src/**/*.ts\""
+    "lint": "eslint \"/**/*.ts\""
   },
   "devDependencies": {
     "@kaleidoscalp/eslint-config": "workspace:^",
