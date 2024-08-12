@@ -1,0 +1,3 @@
+{
+  "extends": "@kaleidoscalp/typescript-config/tsconfig.base.json"
+}
