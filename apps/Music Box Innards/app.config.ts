@@ -3,6 +3,7 @@ import {vanillaExtractPlugin} from '@vanilla-extract/vite-plugin'
 
 export default defineConfig({
   vite: {
-    plugins: [vanillaExtractPlugin()]
+    plugins: [vanillaExtractPlugin()],
+    optimizeDeps: {exclude: ['effect']}
   }
 })

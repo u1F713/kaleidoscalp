@@ -11,17 +11,19 @@
   },
   "dependencies": {
     "@solidjs/meta": "^0.29.4",
-    "@solidjs/router": "^0.14.1",
+    "@solidjs/router": "^0.14.2",
     "@solidjs/start": "^1.0.6",
     "solid-js": "^1.8.20",
     "vinxi": "^0.4.1"
   },
   "devDependencies": {
     "@kaleidoscalp/eslint-config": "workspace:^",
-    "@kaleidoscalp/ui": "workspace:^",
+    "@kaleidoscalp/gallery-api": "workspace:^",
     "@kaleidoscalp/typescript-config": "workspace:^",
+    "@kaleidoscalp/ui": "workspace:^",
     "@vanilla-extract/css": "^1.15.3",
     "@vanilla-extract/vite-plugin": "^4.0.13",
+    "effect": "^3.6.3",
     "eslint-plugin-solid": "^0.14.1",
     "typescript": "5.4.5"
   }

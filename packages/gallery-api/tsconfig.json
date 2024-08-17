@@ -1,0 +1,9 @@
+{
+  "extends": "@kaleidoscalp/typescript-config/tsconfig.base.json",
+  "compilerOptions": {
+    "types": ["vite/client"],
+    "paths": {
+      "~/*": ["./src/*"]
+    }
+  }
+}
