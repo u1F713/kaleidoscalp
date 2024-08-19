@@ -2,7 +2,7 @@ import {test} from 'vitest'
 import {getResources} from '../src/api'
 import {makeRuntime} from '../src/runtime.ts'
 
-test('(api): get-resources', () => {
+test('(api): get-resources', async () => {
   const runtime = makeRuntime()
-  runtime.runPromise(getResources())
+  await runtime.runPromise(getResources())
 })

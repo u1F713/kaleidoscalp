@@ -8,4 +8,5 @@ export const Resource = S.Struct({
   height: S.Int,
   width: S.Int
 })
+
 export type Resource = typeof Resource.Type
